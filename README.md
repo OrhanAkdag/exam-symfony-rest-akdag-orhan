@@ -6,7 +6,7 @@ pour charger les utilisateurs et les ravioles
 # Tester avec postman
 
 Inscription:
-methos POST
+method POST
 http://localhost:8000/register
 
 {
@@ -15,7 +15,7 @@ http://localhost:8000/register
 }
 
 login:
-methos POST
+method POST
 http://localhost:8000/login_check 
 
 {
